@@ -1,0 +1,13 @@
+project_id = "jasebalftkngpbcnonxr"
+
+[functions.send-auth-email]
+verify_jwt = false
+
+[functions.send-notification-email]
+verify_jwt = false
+
+[functions.issue-certificate]
+verify_jwt = false
+
+[functions.generate-transcript]
+verify_jwt = false

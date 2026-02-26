@@ -1,0 +1,48 @@
+import { Instructor } from "@/types";
+
+export const instructors: Instructor[] = [
+  {
+    id: "1",
+    name: "Dr. Amara Okonkwo",
+    title: "Chief Security Architect",
+    bio: "With over 15 years of experience in cybersecurity, Dr. Okonkwo has led security initiatives for major financial institutions across Africa. She holds a PhD in Computer Science from the University of Cape Town and multiple industry certifications including CISSP, CISM, and CEH.",
+    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face",
+    expertise: ["Network Security", "Security Architecture", "Risk Management"],
+    coursesCount: 8,
+    studentsCount: 12500,
+    rating: 4.9,
+  },
+  {
+    id: "2",
+    name: "Kwame Mensah",
+    title: "Senior Penetration Tester",
+    bio: "Kwame is a certified ethical hacker with extensive experience in penetration testing and vulnerability assessment. He has worked with governments and enterprises across West Africa, helping them identify and remediate security vulnerabilities.",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    expertise: ["Ethical Hacking", "Penetration Testing", "Web Security"],
+    coursesCount: 6,
+    studentsCount: 9800,
+    rating: 4.8,
+  },
+  {
+    id: "3",
+    name: "Fatima El-Amin",
+    title: "Cloud Security Specialist",
+    bio: "Fatima specializes in cloud security architecture and has helped numerous African organizations migrate securely to AWS, Azure, and Google Cloud. She is passionate about making cloud security accessible to businesses of all sizes.",
+    avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
+    expertise: ["Cloud Security", "AWS", "Azure", "DevSecOps"],
+    coursesCount: 5,
+    studentsCount: 7200,
+    rating: 4.9,
+  },
+  {
+    id: "4",
+    name: "Samuel Adebayo",
+    title: "SOC Manager & Incident Response Lead",
+    bio: "Samuel has built and managed Security Operations Centers for leading telecommunications companies in Africa. His expertise in threat detection and incident response has helped organizations prevent millions in potential losses.",
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+    expertise: ["Security Operations", "Incident Response", "SIEM", "Threat Hunting"],
+    coursesCount: 7,
+    studentsCount: 8500,
+    rating: 4.7,
+  },
+];
